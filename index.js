@@ -13,7 +13,7 @@ const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology:
 async function run() {
     try {
         await client.connect();
-        console.log('connected to db');
+        console.log('connected to db Yes');
         //   const database = client.db("insertDB");
         //   const haiku = database.collection("haiku");
         //   // create a document to insert
